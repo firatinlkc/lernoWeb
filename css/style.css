@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: #F4F6FA !important;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/*Backgroun-Color */
+.bg-primary{
+    background-color: #062D6F !important;
+}
+.bg-accent{
+    background-color: #F7C598 !important;
+}
+.bg-heighlight{
+    background-color: #6B71E0 !important;
+}
+.bg-two{
+    background-color: #EBEEF3;
+}
+.bg-footer{
+    background-color: #D1D9E6;
+}
+/*Text-Color*/
+.text-accent{
+    color: #F7C598 !important;
+}
+.text-primary{
+    color: #062D6F !important;
+}
+.text-secondary{
+    color: #45536B !important;
+}
+/*Font-weight*/
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+/*Font-size*/
+.fs-15{
+    font-size: 15px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+/*Padding*/
+.px-180{
+    padding-left: 180px !important;
+    padding-right: 180px !important;
+}
+.px-120{
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+}
+/*Navbar*/
+.nav-hover{
+    transition: all 0.7s ease-in-out;
+}
+.nav-hover:hover{
+    font-size: 23px;
+    font-weight: 600;
+}
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+.bgScrol {
+	background-color:  #F7C598 !important;
+	transition: 1s all ease;
+    height: 120px;    
+}
+/*Header*/
+.border-radius{
+    border-radius: 15px;
+}
+/*Section-1*/
+.btn-border{
+    border: 2px solid #062D6F !important;
+}
+/*Top Courses*/
+.courses-icon{
+    top: 30px;
+    right: -37px; 
+    width: 9rem;   
+}
+.icon-ellipse{
+    bottom: 0px;
+    right: 40px;
+    width: 9rem;
+}
+.btn-border-1{
+    border: 2px solid white;
+}
+.card-courses{
+    width: 3rem;        
+}
+.card-courses:hover{
+    opacity: .9;
+}
+.bg-img{
+    background-image: url(../image/courses-img/1.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-img-1{
+    background-image: url(../image/courses-img/2.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-img-2{
+    background-image: url(../image/courses-img/3.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-image{
+    background-image: url(../image/courses-img/Vector.png);
+    z-index: 99;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;    
+}
+/*Our Mentors*/
+.icon-mentor{
+    top: 15px;
+    left: 15px;
+}
+.our-mentor-left{
+    padding-left: 180px;
+    padding-top: 90px;
+}
+.card-mentors{
+    width: 300px;        
+}
+.card-mentors:hover{
+    opacity: 0.9;
+}
+.bg-img-mentors{
+    background-image: url(../image/ourMentor-img/1.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-img-1-mentors{
+    background-image: url(../image/ourMentor-img/2.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-img-2-mentors{
+    background-image: url(../image/ourMentor-img/3.jpg);
+    height: 25rem;
+    width: 16rem;
+    background-repeat: no-repeat;  
+}
+.bg-image-mentors{
+    background-image: url(../image/ourMentor-img/Vector.svg);
+    z-index: 99;
+    bottom: -30px;
+    width: 100%;
+    height: 150;
+    background-repeat: no-repeat;    
+}
+/*Worth It*/
+.worth-icon{
+    right: 0;
+}
+.worth-icon-1{
+    right: 15px;
+    bottom: 20px;
+}
+.worth-icon-2{
+    top: -38px;
+}
+.carousel-icon{
+    width: 10px !important;
+    height: 9px !important;
+}
+/*Learning Today*/
+.str-radius{
+    border-radius: 20px
+}
+.str-icon{
+    left: 0px;
+    top: 20px
+}
+.str-icon-1{
+    bottom: 3px;
+    right: 3px;
+}
+/*Footer*/
+.footer-icon{
+    width: 30px;
+    opacity: 0.7;
+}
+.footer-icon:hover{
+    opacity: 1;
+}
